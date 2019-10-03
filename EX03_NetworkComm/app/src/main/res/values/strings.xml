@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EX03_NetworkComm</string>
+    <string name="txt_send">Envoyer !</string>
+    <string name="txt_receive">Recevoir !</string>
+</resources>

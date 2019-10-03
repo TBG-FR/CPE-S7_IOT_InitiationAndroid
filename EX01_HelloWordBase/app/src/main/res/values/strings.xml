@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EX01_HelloWordBase</string>
+    <string name="txt_helloworld_long">Un petit pas pour l\'homme, un grand pas pour ma compréhension d\'Android.</string>
+    <string name="txt_first">Premier</string>
+    <string name="txt_second">Deuxième</string>
+    <string name="txt_third">Troisième</string>
+    <string name="txt_btn">Ceci est un… bouton !!! :-)</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EX02_Sondes</string>
+    <string name="txt_sensor">Sensor</string>
+    <string name="txt_values">Values : [%1.2f, %2.2f, %3.2f]</string>
+    <string name="txt_prox_values">Proximity : %1.2f</string>
+    <string name="txt_datetime">Read at %1$s</string>
+    <string name="txt_accuracy">Read at %1$s</string>
+</resources>
