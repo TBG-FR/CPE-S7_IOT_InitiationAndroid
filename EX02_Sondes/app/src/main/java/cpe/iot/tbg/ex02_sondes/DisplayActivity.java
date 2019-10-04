@@ -26,7 +26,7 @@ public class DisplayActivity extends AppCompatActivity implements SensorEventLis
         setContentView(R.layout.activity_display);
 
         sm = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
-        sm.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
+        sm.getDefaultSensor(Sensor.TYPE_ACCELEROMETER); // TODO : Useless ?
 
         tv_values = findViewById(R.id.tv_values);
         tv_datetime = findViewById(R.id.tv_datetime);
@@ -37,7 +37,7 @@ public class DisplayActivity extends AppCompatActivity implements SensorEventLis
     protected void onPause() {
         super.onPause();
         sm.unregisterListener(this);
-        //sm = null;
+        //sm = null; // TODO : uncomment ?
     }
 
     @Override
